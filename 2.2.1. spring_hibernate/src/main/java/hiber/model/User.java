@@ -24,7 +24,6 @@ public class User {
    @JoinColumn(name = "cars_id")
    private Car car;
 
-
    public User(String firstName, String lastName, String email) {
       this.firstName = firstName;
       this.lastName = lastName;
